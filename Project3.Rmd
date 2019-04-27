@@ -7,15 +7,20 @@ output: ioslides_presentation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
 ```
 
 ## Introduction
 
 This is course projection for Shiny Application and Reproducible Pitch.
 
-### Data
+## Data
 
 Data used in this application is the diamonds data set from `ggplot2` package.
+
+```{r}
+head(diamonds)
+```
 
 
 ## Prediction of Diamond Price
@@ -31,7 +36,9 @@ The price is modelled as a linear function of carat under given properties of co
 
 ## Applicaiton Notes
 
-Click the following link for the application.
+Click the following link for the [application](https://shangong.shinyapps.io/shinyapplicationreproduciblepitch/).
 
-Click the following link for the project files on Github.
+
+Click the following link for the project files on [Github](https://github.com/gongshan0521/ShinyApplicationReproduciblePitch).
+
 
